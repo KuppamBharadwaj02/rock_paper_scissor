@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ga+Maamli&family=Londrina+Sketch&family=Monda:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <title>Rock Paper Scissors Game</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main1">
+            <div class="main2">
+                <button onclick="playGame('ROCK')"><i class="fa-solid fa-hand-fist"></i></button>
+                <button onclick="playGame('PAPER')"><i class="fa-solid fa-hand"></i></button>
+                <button onclick="playGame('SCISSOR')"><i class="fa-solid fa-hand-scissors"></i></button>
+            </div>
+            <div class="main3">
+                <h2>YOUR CHOICE: <span id="min1"></span></h2>
+                <h2>COMPUTER CHOICE: <span id="min2"></span></h2>
+            </div>
+            <div class="result">
+                <h1 id="min3"></h1>
+            </div>
+            <div class="main4">
+                <h2>Your Score: <span id="min4">0</span></h2>
+                <h2>Computer Score: <span id="min5">0</span></h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
